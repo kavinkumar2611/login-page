@@ -1,0 +1,66 @@
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+form{
+    width: 25rem;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(133,145,150,0.54);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,37);
+    border-radius: 25px;
+    border-left: 30px;
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+}
+lable{
+    font-size: 20px;    
+    margin-left: 5%;
+    opacity: .8;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+input{
+    width: 80%;
+    margin: 5% 7%;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(161, 192, 24);
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+    opacity: .5;
+}
+button{
+    width: 50%;
+    margin: 3% auto;
+    color: rgb(197, 99, 19);
+    font-size: 15px;
+    opacity: .7;
+    background: rgba(255,255,255,0.418);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+div{
+    
+    width: 25rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(133,145,150,0.54);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,37);
+    border-radius: 30px;
+    border-left: 30px;
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+}
+
